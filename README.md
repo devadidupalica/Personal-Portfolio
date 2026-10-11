@@ -1,6 +1,6 @@
 # Dupalica Devadi — Portfolio + Profile Chatbot
 
-Personal portfolio website personalized from the resume supplied for the Krithomedh Technical Recruitment Round 2 assignment.
+Personal portfolio website personalized.
 
 ## Included
 - Responsive portfolio with About, Skills, Projects, Experience-related profile information, Education, Certifications, Achievements, and Contact
