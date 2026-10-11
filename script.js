@@ -54,7 +54,7 @@ function profileSummary(){
 function answerQuestion(raw){
  const q=raw.toLowerCase();
  if(/^(hi|hello|hey|good morning|good evening)\b/.test(q)) return `Hi! 👋 I'm the portfolio assistant. Ask me about ${PROFILE.name}'s skills, projects, coding profiles, or resume.`;
- if(/resume|cv/.test(q)) return `You can view the resume from the Resume link in the top navigation, or open it here: <a href="assets/resume.pdf" target="_blank" rel="noopener">View resume ↗</a>\n\nRemember to replace assets/resume.pdf with your real resume before submitting.`;
+ if(/resume|cv/.test(q)) return `You can view the resume from the Resume link in the top navigation, or open it here: <a href="./resume.pdf" target="_blank" rel="noopener">View resume ↗</a>\n\n`;
  if(/project|built|work|portfolio/.test(q)){
    return `Here are the projects listed in ${PROFILE.name}'s portfolio:\n\n${PROFILE.projects.map((p,i)=>`${i+1}. ${p.name} — ${p.description}`).join("\n\n")}`;
  }
